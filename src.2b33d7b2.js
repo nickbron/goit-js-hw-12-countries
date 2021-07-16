@@ -2,7 +2,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 
 },{}],"irxn":[function(require,module,exports) {
 "use strict";function e(e){e.preventDefault()}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=e;
+},{}],"EGsz":[function(require,module,exports) {
+"use strict";function e(){return{searchForm:document.getElementById("search-box")}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=e;
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./css/styles.css");var e=s(require("./js/fetchCountries"));function s(e){return e&&e.__esModule?e:{default:e}}const r=300;
-},{"./css/styles.css":"krre","./js/fetchCountries":"irxn"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-12-countries/src.d5db3f7d.js.map
+"use strict";require("./css/styles.css");var e=r(require("./js/fetchCountries")),t=r(require("./js/get-refs"));function r(e){return e&&e.__esModule?e:{default:e}}const s=300,n=(0,t.default)();function u(e){e.preventDefault();const t=e.currentTarget;console.log(t)}n.searchForm.addEventListener("input",u);
+},{"./css/styles.css":"krre","./js/fetchCountries":"irxn","./js/get-refs":"EGsz"}]},{},["Focm"], null)
+//# sourceMappingURL=/goit-js-hw-12-countries/src.2b33d7b2.js.map
