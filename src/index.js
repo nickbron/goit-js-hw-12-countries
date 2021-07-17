@@ -12,7 +12,7 @@ const refs = getRefs();
 refs.searchForm.addEventListener('input', debounce(onSearch, 300));
 
 function onSearch(e){
-  //e.preventDefault();
+
   const countryName = e.target.value
 
   API.fetchCountries(countryName).then(value => {
@@ -39,8 +39,8 @@ function renderCountry(country) {
   refs.countryInfo.insertAdjacentHTML('beforeend', markup);
 }
   
-  function renderCountriesList(countriesItem) {
-    const markup = countriesList(countriesItem);
+  function renderCountriesList(Items) {
+    const markup = countriesList(Items);
     refs.countryList.insertAdjacentHTML('beforeend', markup);
   }
   
