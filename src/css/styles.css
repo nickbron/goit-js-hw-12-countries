@@ -17,22 +17,8 @@ body {
   margin-bottom: 16px;
 }
 
-.bold {
-  font-weight: 700;
-}
-
-.default {
-  font-weight: 400;
-}
-
-.card-body {
-  width: 300px;
-}
-
-.card-title {
-  display: flex;
-  font-weight: normal;
-  align-items: center;
+img {
+  width: 10%;
 }
 
 .flag-title {
@@ -40,15 +26,19 @@ body {
   margin-right: 5px;
 }
 
+.flag-list {
+  height: 25px;
+  margin-left: 20px;
+  width: 25px;
+}
+
 .card-list {
   display: flex;
   font-weight: normal;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.flag-list {
-  height: 25px;
-  margin-right: 10px;
-  width: 25px;
+.card-text span {
+  font-weight: bold;
 }

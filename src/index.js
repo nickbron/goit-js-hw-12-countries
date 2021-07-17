@@ -35,9 +35,7 @@ function onSearch(e){
 
 
 function renderCountry(country) {
-  const lang = country.languages.map(l => l.name).join(', ');
-  console.log(lang);
-  const markup = countryCard(country, lang);
+  const markup = countryCard(country);
   refs.countryInfo.insertAdjacentHTML('beforeend', markup);
 }
   
